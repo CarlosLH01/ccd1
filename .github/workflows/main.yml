@@ -9,11 +9,11 @@ on:
         - hotfix
 jobs: 
    Saludos:
-     runs-on: ubuntu-lastest
+     runs-on: ubuntu-latest
 
      steps:
        - name: descargar el repo
-         uses: actions/checkout@v2
+         uses: actions/checkout@v4
 
        - name: hola Push
          run: echo "hola mundo desde githun actions on push"
